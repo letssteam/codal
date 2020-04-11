@@ -20,9 +20,9 @@
                 "${workspaceRoot}/libraries/codal-stm32/system/Drivers/CMSIS/Device/ST/STM32L4xx/**",
                 "${workspaceRoot}/libraries/codal-stm32/system/Drivers/STM32L4xx_HAL_Driver/**",
                 "${workspaceRoot}/libraries/codal-stm32/system/CMSIS/CMSIS/Core/**",
-                "${workspaceRoot}/libraries/codal-stm32-B-L475E-IOT01A/inc/**",
-                "${workspaceRoot}/libraries/codal-stm32-B-L475E-IOT01A/src/**",
-                "${workspaceRoot}/libraries/codal-stm32-B-L475E-IOT01A/model/**",
+                "${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/inc/**",
+                "${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/src/**",
+                "${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/model/**",
                 "${workspaceRoot}/libraries/**"
             ],
             "name": "Linux",

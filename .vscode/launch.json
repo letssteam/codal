@@ -11,7 +11,7 @@
             "device": "STM32L475VGTx",
 			"searchDir": [
 				"/usr/share/openocd/scripts/",
-				"${workspaceRoot}/libraries/codal-stm32-B-L475E-IOT01A/scripts/"
+				"${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/scripts/"
 			],
             "configFiles": [
 				"openocd.cfg",
@@ -27,7 +27,7 @@
             "cwd": "${workspaceRoot}/",
             "environment": [],
             "externalConsole": false,
-            "debugServerArgs": "-s /usr/share/openocd/scripts/ -s ${workspaceRoot}/libraries/codal-stm32-B-L475E-IOT01A/scripts/ -f openocd.cfg -c init -c \"reset init\"",
+            "debugServerArgs": "-s /usr/share/openocd/scripts/ -s ${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/scripts/ -f openocd.cfg -c init -c \"reset init\"",
             "serverLaunchTimeout": 20000,
             "filterStderr": true,
             "filterStdout": false,

@@ -12,4 +12,3 @@ Makefile
 pxtapp
 buildcache.json
 *.pyc
-codal.json
