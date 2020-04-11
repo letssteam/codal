@@ -1,5 +1,4 @@
 build
-libraries
 .yotta.json
 yotta_modules
 yotta_targets
@@ -8,10 +7,8 @@ yotta_targets
 Makefile
 *.hex
 *.DS_Store
-.vscode
 *.uf2
 *.bin
 pxtapp
 buildcache.json
 *.pyc
-codal.json
