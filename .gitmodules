@@ -1,0 +1,11 @@
+[submodule "codal-core"]
+	path = libraries/codal-core
+	url = https://github.com/letssteam/codal-core.git
+
+[submodule "codal-stm32"]
+	path = libraries/codal-stm32
+	url = https://github.com/letssteam/codal-stm32.git
+
+[submodule "codal-stm32-B-L475E-IOT01A"]
+	path = libraries/codal-stm32-B-L475E-IOT01A
+	url = https://github.com/letssteam/codal-stm32-B-L475E-IOT01A.git
