@@ -59,6 +59,14 @@
         "wiring_digital.h": "c",
         "digital_io.h": "c",
         "analog.h": "c",
-        "pinconfigured.h": "c"
+        "pinconfigured.h": "c",
+        "cstdint": "c",
+        "exception": "cpp",
+        "memory_resource": "cpp",
+        "fstream": "cpp",
+        "iosfwd": "cpp",
+        "new": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp"
     }
 }
