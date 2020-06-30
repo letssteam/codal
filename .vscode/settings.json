@@ -68,5 +68,6 @@
         "new": "cpp",
         "sstream": "cpp",
         "streambuf": "cpp"
-    }
+    },
+    "cmake.configureOnOpen": false
 }

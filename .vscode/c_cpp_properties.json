@@ -32,7 +32,10 @@
                 "STM32L4xx",
                 "STM32L475xx",
                 "DMESG_SERIAL_DEBUG",
-                "USE_HAL_DRIVER"
+                "USE_HAL_DRIVER",
+                "DEVICE_SRAM_BASE=0x20000000",
+                "DEVICE_SRAM_END=0x20018000",
+                "DEVICE_STACK_BASE=DEVICE_SRAM_END"
             ],
             "intelliSenseMode": "clang-x64",
             "cStandard": "c11",

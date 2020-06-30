@@ -4,13 +4,16 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "make",
+            "label": "build",
             "args": [],
             "type": "shell",
-            "command": "${workspaceRoot}/build.py -d ",
+            "command": "source ~/environments/my_env/bin/activate;${workspaceRoot}/build.py -d",
             "problemMatcher": {
                 "owner": "cpp",
-                "fileLocation": ["relative", "${workspaceRoot}/"],
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}/"
+                ],
                 "pattern": {
                     "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
                     "file": 1,
@@ -20,7 +23,16 @@
                     "message": 5
                 }
             },
+        },
+        {
+            "label": "flash",
+            "args": [],
+            "type": "shell",
+            "command": "openocd -s \"/usr/share/openocd/scripts/\" -s\"libraries/codal-stm32-DISCO_L475VG_IOT/scripts/\" -f \"openocd.cfg\" -c \"program DISCO_L475VG_IOT.hex verify reset exit \"",
+            "dependsOn": ["build"],
+            "presentation": {
+                "reveal": "never"
+            }
         }
     ]
 }
-
