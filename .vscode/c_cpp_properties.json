@@ -17,6 +17,8 @@
                 "${workspaceRoot}/libraries/codal-stm32/src/stm32/OpenAMP/*",
                 "${workspaceRoot}/libraries/codal-stm32/src/stm32/usb/*",
                 "${workspaceRoot}/libraries/codal-stm32/system/STM32L4xx/*",
+                "${workspaceRoot}/libraries/codal-stm32/system/Drivers/STM32L4xx_HAL_Driver/Src",
+                "${workspaceRoot}/libraries/codal-stm32/system/Drivers/STM32L4xx_HAL_Driver/Inc",
                 "${workspaceRoot}/libraries/codal-stm32/variants/DISCO_L475VG_IOT/*",
                 "${workspaceRoot}/libraries/codal-stm32/system/Drivers/CMSIS/Device/ST/STM32L4xx/*",
                 "${workspaceRoot}/libraries/codal-stm32/system/Drivers/STM32L4xx_HAL_Driver/*",

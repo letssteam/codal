@@ -10,13 +10,12 @@
             "name": "Debug (OpenOCD)",
             "device": "STM32L475VGTx",
             "svdFile": "${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/scripts/STM32L4x5.svd",
-            "runToMain": true,
-			"searchDir": [
-				"/usr/share/openocd/scripts/",
-				"${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/scripts/"
-			],
+            "searchDir": [
+                "/usr/share/openocd/scripts/",
+                "${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/scripts/"
+            ],
             "configFiles": [
-				"openocd.cfg",
+                "openocd.cfg"
             ],
             "preLaunchTask": "flash"
         }
