@@ -28,8 +28,10 @@
             "label": "flash",
             "args": [],
             "type": "shell",
-            "command": "openocd -s \"/usr/share/openocd/scripts/\" -s\"libraries/codal-stm32-DISCO_L475VG_IOT/scripts/\" -f \"openocd.cfg\" -c \"program DISCO_L475VG_IOT.hex verify reset exit \"",
-            "dependsOn": ["build"],
+            "command": "cp DISCO_L475VG_IOT.bin /media/nedjar/DIS_L4IOT/; sleep 6",
+            "dependsOn": [
+                "build"
+            ],
             "presentation": {
                 "reveal": "never"
             }
