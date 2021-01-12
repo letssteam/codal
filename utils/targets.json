@@ -8,6 +8,30 @@
         "type":"git"
     },
     {
+        "name": "codal-stm32-DISCO_L475VG_IOT", 
+        "info":"This target specifies the DISCO_L475VG_IOT Board from ST which is driven by a STM32.",
+        "url": "https://github.com/letssteam/codal-stm32-DISCO_L475VG_IOT", 
+        "device_url":"http://www.st.com/en/evaluation-tools/b-l475e-iot01a.html",
+        "branch": "master", 
+        "type": "git"
+    },
+    {
+        "name": "codal-stm32-NUCLEO_F4x1RE",
+        "info":"This target specifies the NUCLEO_F4x1RE Board from ST which is driven by a STM32.",
+        "url": "https://github.com/letssteam/codal-stm32-NUCLEO_F4x1RE", 
+        "device_url":"https://www.st.com/en/evaluation-tools/nucleo-f411re.html",
+        "branch": "main", 
+        "type": "git"
+    },
+    {
+        "name": "codal-stm32-PNUCLEO_WB55RG",
+        "info":"This target specifies the PNUCLEO_WB55RG Board from ST which is driven by a STM32.",        
+        "url": "https://github.com/letssteam/codal-stm32-PNUCLEO_WB55RG",
+        "device_url":"https://www.st.com/en/evaluation-tools/p-nucleo-wb55.html",
+        "branch": "main", 
+        "type": "git"
+    },
+    {
         "name":"codal-circuit-playground",
         "info":"This target specifies the circuit playground which is driven by a SAMD21.",
         "device_url":"https://www.adafruit.com/product/3333",
