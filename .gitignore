@@ -1,6 +1,8 @@
+libraries
 samples
 source
 build
+codal.json
 .yotta.json
 yotta_modules
 yotta_targets
