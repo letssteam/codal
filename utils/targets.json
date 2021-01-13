@@ -17,9 +17,9 @@
         "type": "git"
     },
     {
-        "name": "codal-stm32-NUCLEO_F411RE",
-        "info":"This target specifies the NUCLEO_F411RE Board from ST which is driven by a STM32.",
-        "url": "https://github.com/letssteam/codal-stm32-NUCLEO_F411RE", 
+        "name": "codal-stm32-NUCLEO_F4x1RE",
+        "info":"This target specifies the NUCLEO_F4x1RE Board from ST which is driven by a STM32.",
+        "url": "https://github.com/letssteam/codal-stm32-NUCLEO_F4x1RE", 
         "device_url":"https://www.st.com/en/evaluation-tools/nucleo-f411re.html",
         "branch": "master", 
         "type": "git"
