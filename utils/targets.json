@@ -21,7 +21,7 @@
         "info":"This target specifies the NUCLEO_F4x1RE Board from ST which is driven by a STM32.",
         "url": "https://github.com/letssteam/codal-stm32-NUCLEO_F4x1RE", 
         "device_url":"https://www.st.com/en/evaluation-tools/nucleo-f411re.html",
-        "branch": "master", 
+        "branch": "main", 
         "type": "git"
     },
     {
@@ -29,7 +29,7 @@
         "info":"This target specifies the PNUCLEO_WB55RG Board from ST which is driven by a STM32.",        
         "url": "https://github.com/letssteam/codal-stm32-PNUCLEO_WB55RG",
         "device_url":"https://www.st.com/en/evaluation-tools/p-nucleo-wb55.html",
-        "branch": "master", 
+        "branch": "main", 
         "type": "git"
     },
     {
