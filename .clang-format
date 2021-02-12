@@ -1,17 +1,23 @@
-BasedOnStyle: Chromium
+BasedOnStyle: Google
 Standard : c++20
+
 IndentWidth: 4
 TabWidth: 4
 UseTab: Never
 ColumnLimit: 120
-DerivePointerAlignment: false
-PointerAlignment: Left
-BreakBeforeBraces: Attach
+
 AccessModifierOffset: -2
-IndentCaseLabels: true
 AllowShortFunctionsOnASingleLine: Inline
 AlignConsecutiveAssignments: true
-BinPackArguments : false
-BinPackParameters : false
+AlignConsecutiveMacros: true
+AlignConsecutiveBitFields: true
+AlignEscapedNewlines: true
+BinPackArguments: true
+BinPackParameters: true
+BreakBeforeBraces: Stroustrup
+DerivePointerAlignment: false
+FixNamespaceComments: true
+IndentCaseLabels: true
+PointerAlignment: Left
 SortIncludes: true
-
+SortUsingDeclarations: true
