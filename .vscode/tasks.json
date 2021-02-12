@@ -7,22 +7,26 @@
             "label": "build",
             "args": [],
             "type": "shell",
-            "command": "source ~/environments/my_env/bin/activate;${workspaceRoot}/build.py -d",
+            "command": "source ~/python-venv/codal/bin/activate;${workspaceRoot}/build.py -d",
             "problemMatcher": {
-                "owner": "cpp",
-                "fileLocation": [
-                    "relative",
-                    "${workspaceRoot}/"
-                ],
-                "pattern": {
-                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
-                    "file": 1,
-                    "line": 2,
-                    "column": 3,
-                    "severity": 4,
-                    "message": 5
-                }
+                "base": "$gcc",
+                "fileLocation": ["absolute"],
             },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        },
+        {
+            "label": "build all",
+            "args": [],
+            "type": "shell",
+            "command": "source ~/python-venv/codal/bin/activate;${workspaceRoot}/build.py -d -c",
+            "problemMatcher": {
+                "base": "$gcc",
+                "fileLocation": ["absolute"],
+            },
+            "group": "build",
         },
         {
             "label": "flash",
@@ -34,7 +38,11 @@
             ],
             "presentation": {
                 "reveal": "never"
-            }
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
         }
     ]
 }
