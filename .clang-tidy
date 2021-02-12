@@ -1,0 +1,5 @@
+---
+Checks: readability-*,-readability-magic-numbers
+WarningsAsErrors: ''
+HeaderFilterRegex: '^((?!/system/|/variants/).)*$'
+AnalyzeTemporaryDtors: false
