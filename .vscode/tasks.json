@@ -10,12 +10,14 @@
             "command": "source ~/python-venv/codal/bin/activate;${workspaceRoot}/build.py -d",
             "problemMatcher": {
                 "base": "$gcc",
-                "fileLocation": ["absolute"],
+                "fileLocation": [
+                    "absolute"
+                ]
             },
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
+            }
         },
         {
             "label": "build all",
@@ -24,9 +26,11 @@
             "command": "source ~/python-venv/codal/bin/activate;${workspaceRoot}/build.py -d -c",
             "problemMatcher": {
                 "base": "$gcc",
-                "fileLocation": ["absolute"],
+                "fileLocation": [
+                    "absolute"
+                ]
             },
-            "group": "build",
+            "group": "build"
         },
         {
             "label": "flash",
@@ -42,7 +46,7 @@
             "group": {
                 "kind": "test",
                 "isDefault": true
-            },
+            }
         }
     ]
 }
