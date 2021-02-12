@@ -2,12 +2,13 @@
     "configurations": [
         {
             "includePath": [
+                "/usr/lib/arm-none-eabi/include/*",
                 "${workspaceRoot}/libraries/codal-core/inc/core/*",
                 "${workspaceRoot}/libraries/codal-core/inc/driver-models/*",
                 "${workspaceRoot}/libraries/codal-core/inc/drivers/*",
                 "${workspaceRoot}/libraries/codal-core/inc/streams/*",
                 "${workspaceRoot}/libraries/codal-core/inc/types/*",
-                "${workspaceRoot}/libraries/codal-core/inc/**",
+                "${workspaceRoot}/libraries/codal-core/inc/*",
                 "${workspaceRoot}/libraries/codal-stm32/inc/*",
                 "${workspaceRoot}/libraries/codal-stm32/src/*",
                 "${workspaceRoot}/libraries/codal-stm32/src/stm32/*",
@@ -19,12 +20,12 @@
                 "${workspaceRoot}/libraries/codal-stm32/system/Drivers/STM32L4xx_HAL_Driver/Src",
                 "${workspaceRoot}/libraries/codal-stm32/system/Drivers/STM32L4xx_HAL_Driver/Inc",
                 "${workspaceRoot}/libraries/codal-stm32/variants/DISCO_L475VG_IOT/*",
-                "${workspaceRoot}/libraries/codal-stm32/system/Drivers/CMSIS/Device/ST/STM32L4xx/**",
-                "${workspaceRoot}/libraries/codal-stm32/system/Drivers/STM32L4xx_HAL_Driver/**",
-                "${workspaceRoot}/libraries/codal-stm32/system/CMSIS/CMSIS/Core/**",
-                "${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/inc/**",
-                "${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/src/**",
-                "${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/model/**",
+                "${workspaceRoot}/libraries/codal-stm32/system/Drivers/CMSIS/Device/ST/STM32L4xx/*",
+                "${workspaceRoot}/libraries/codal-stm32/system/Drivers/STM32L4xx_HAL_Driver/*",
+                "${workspaceRoot}/libraries/codal-stm32/system/CMSIS/CMSIS/Core/*",
+                "${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/inc/*",
+                "${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/src/*",
+                "${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/model/*",
                 "${workspaceRoot}/libraries/**"
             ],
             "name": "Linux",
@@ -40,7 +41,8 @@
             ],
             "intelliSenseMode": "clang-x64",
             "cStandard": "c11",
-            "cppStandard": "c++17"
+            "cppStandard": "c++17",
+            "configurationProvider": "go2sh.cmake-integration"
         }
     ],
     "version": 4
