@@ -13,7 +13,7 @@
         "info":"This target specifies the DISCO_L475VG_IOT Board from ST which is driven by a STM32.",
         "url": "https://github.com/letssteam/codal-stm32-DISCO_L475VG_IOT", 
         "device_url":"http://www.st.com/en/evaluation-tools/b-l475e-iot01a.html",
-        "branch": "master", 
+        "branch": "main", 
         "type": "git"
     },
     {
