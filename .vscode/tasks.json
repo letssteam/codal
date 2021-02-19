@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "build current target",
             "args": [],
             "type": "shell",
             "command": "source ~/python-venv/codal/bin/activate;${workspaceRoot}/build.py -d",
@@ -20,7 +20,15 @@
             }
         },
         {
-            "label": "build all",
+            "label": "tag current target",
+            "args": [],
+            "type": "shell",
+            "command": "source ~/python-venv/codal/bin/activate;${workspaceRoot}/build.py -l",
+            "group": "test",
+            "problemMatcher": []
+        },
+        {
+            "label": "clean build current target",
             "args": [],
             "type": "shell",
             "command": "source ~/python-venv/codal/bin/activate;${workspaceRoot}/build.py -d -c",
