@@ -7,7 +7,7 @@
             "label": "build",
             "args": [],
             "type": "shell",
-            "command": "source ~/python-venv/codal/bin/activate;${workspaceRoot}/build.py -d",
+            "command": "${workspaceRoot}/build.py -d",
             "problemMatcher": {
                 "base": "$gcc",
                 "fileLocation": [
@@ -23,7 +23,7 @@
             "label": "tag current target",
             "args": [],
             "type": "shell",
-            "command": "source ~/python-venv/codal/bin/activate;${workspaceRoot}/build.py -l",
+            "command": "${workspaceRoot}/build.py -l",
             "group": "test",
             "problemMatcher": []
         },
@@ -31,7 +31,7 @@
             "label": "clean build current target",
             "args": [],
             "type": "shell",
-            "command": "source ~/python-venv/codal/bin/activate;${workspaceRoot}/build.py -d -c",
+            "command": "${workspaceRoot}/build.py -d -c",
             "problemMatcher": {
                 "base": "$gcc",
                 "fileLocation": [
@@ -44,7 +44,7 @@
             "label": "flash",
             "args": [],
             "type": "shell",
-            "command": "openocd -s /usr/share/openocd/scripts/ -s /workspaces/codal-letssteam/codal/libraries/codal-stm32-DISCO_L475VG_IOT/scripts/ -f openocd.cfg -c 'program build/DISCO_L475VG_IOT verify reset exit'; sleep 6",
+            "command": "openocd -s /usr/share/openocd/scripts/ -s ${workspaceRoot}/libraries/codal-stm32-DISCO_L475VG_IOT/scripts/ -f openocd.cfg -c 'program build/DISCO_L475VG_IOT verify reset exit'; sleep 6",
             "dependsOn": [
                 "build"
             ],
