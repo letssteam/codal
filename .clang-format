@@ -10,7 +10,6 @@ AccessModifierOffset: -2
 AllowShortFunctionsOnASingleLine: Inline
 AlignConsecutiveAssignments: true
 AlignConsecutiveMacros: true
-AlignConsecutiveBitFields: true
 AlignEscapedNewlines: true
 BinPackArguments: true
 BinPackParameters: true
