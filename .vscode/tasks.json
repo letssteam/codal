@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build current target",
+            "label": "build",
             "args": [],
             "type": "shell",
             "command": "source ~/python-venv/codal/bin/activate;${workspaceRoot}/build.py -d",
@@ -44,7 +44,7 @@
             "label": "flash",
             "args": [],
             "type": "shell",
-            "command": "cp DISCO_L475VG_IOT.bin /media/nedjar/DIS_L4IOT/; sleep 6",
+            "command": "openocd -s /usr/share/openocd/scripts/ -s /workspaces/codal-letssteam/codal/libraries/codal-stm32-DISCO_L475VG_IOT/scripts/ -f openocd.cfg -c 'program build/DISCO_L475VG_IOT verify reset exit'; sleep 6",
             "dependsOn": [
                 "build"
             ],
