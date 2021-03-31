@@ -17,7 +17,13 @@
             "configFiles": [
                 "openocd.cfg"
             ],
-            "preLaunchTask": "flash"
+            "preLaunchTask": "flash",
+            "runToMain": true,
+            "preLaunchCommands": [
+                "set mem inaccessible-by-default off",
+                "enable breakpoint",
+                "monitor reset"
+            ]
         }
     ]
 }
