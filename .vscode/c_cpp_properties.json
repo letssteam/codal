@@ -37,7 +37,9 @@
                 "USE_HAL_DRIVER",
                 "DEVICE_SRAM_BASE=0x20000000",
                 "DEVICE_SRAM_END=0x20018000",
-                "DEVICE_STACK_BASE=DEVICE_SRAM_END"
+                "DEVICE_STACK_BASE=DEVICE_SRAM_END",
+                "USBCON",
+                "USBD_USE_CDC"
             ],
             "intelliSenseMode": "clang-x64",
             "cStandard": "c11",
