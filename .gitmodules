@@ -1,0 +1,19 @@
+[submodule "codal-stm32-DISCO_L475VG_IOT"]
+    path = libraries/codal-stm32-DISCO_L475VG_IOT
+    url = https://github.com/letssteam/codal-stm32-DISCO_L475VG_IOT.git
+
+[submodule "codal-stm32-PNUCLEO_WB55RG"]
+    path = libraries/codal-stm32-PNUCLEO_WB55RG
+    url = https://github.com/letssteam/codal-stm32-PNUCLEO_WB55RG.git
+
+[submodule "codal-stm32-NUCLEO_F4x1RE"]
+    path = libraries/codal-stm32-NUCLEO_F4x1RE
+    url = https://github.com/letssteam/codal-stm32-NUCLEO_F4x1RE.git
+
+[submodule "codal-stm32"]
+    path = libraries/codal-stm32
+    url = https://github.com/letssteam/codal-stm32.git
+
+[submodule "codal-core"]
+    path = libraries/codal-core
+    url = https://github.com/letssteam/codal-core.git
