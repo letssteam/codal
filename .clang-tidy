@@ -1,5 +1,5 @@
 ---
-Checks: readability-*,-readability-magic-numbers
+Checks: readability-*,-readability-magic-numbers,portability-*, performance-*, modernize-*, bugprone-*, abseil-*, google-*, -google-readability-casting
 WarningsAsErrors: ''
 HeaderFilterRegex: '^((?!/system/|/variants/).)*$'
-AnalyzeTemporaryDtors: false
+AnalyzeTemporaryDtors: true
