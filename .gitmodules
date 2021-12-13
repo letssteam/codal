@@ -17,3 +17,7 @@
 [submodule "codal-core"]
     path = libraries/codal-core
     url = https://github.com/letssteam/codal-core.git
+    
+[submodule "codal-jacdac"]
+	path = codal-jacdac
+	url = https://github.com/letssteam/codal-jacdac.git
