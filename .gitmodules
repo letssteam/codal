@@ -6,6 +6,10 @@
     path = libraries/codal-stm32-PNUCLEO_WB55RG
     url = https://github.com/letssteam/codal-stm32-PNUCLEO_WB55RG.git
 
+[submodule "codal-stm32-STEAM32_WB55RG"]
+    path = libraries/codal-stm32-STEAM32_WB55RG
+    url = https://github.com/letssteam/codal-stm32-STEAM32_WB55RG.git
+
 [submodule "codal-stm32-NUCLEO_F4x1RE"]
     path = libraries/codal-stm32-NUCLEO_F4x1RE
     url = https://github.com/letssteam/codal-stm32-NUCLEO_F4x1RE.git
