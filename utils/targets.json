@@ -36,7 +36,7 @@
         "name": "codal-stm32-STEAM32_WB55RG",
         "info": "This target specifies the STEAM32 Board from ST which is driven by a STM32.",
         "url": "https://github.com/letssteam/codal-stm32-STEAM32_WB55RG",
-        "device_url": "https://www.st.com/en/evaluation-tools/p-nucleo-wb55.html",
+        "device_url": "https://www.steami.cc/",
         "branch": "main",
         "type": "git"
     },
