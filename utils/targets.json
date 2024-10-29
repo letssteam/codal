@@ -9,6 +9,14 @@
         "test_ignore": true
     },
     {
+        "name": "codal-steami-samples",
+        "info": "This target specifies the DISCO_L475VG_IOT Board from ST which is driven by a STM32.",
+        "url": "https://github.com/steamicc/codal-steami-samples",
+        "device_url": "https://www.steami.cc/",
+        "branch": "main",
+        "type": "git"
+    },
+    {
         "name": "codal-stm32-DISCO_L475VG_IOT",
         "info": "This target specifies the DISCO_L475VG_IOT Board from ST which is driven by a STM32.",
         "url": "https://github.com/letssteam/codal-stm32-DISCO_L475VG_IOT",
